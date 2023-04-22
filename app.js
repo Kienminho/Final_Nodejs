@@ -9,9 +9,10 @@ const app = express();
 const port = 3000;
 
 //các middle ware
+//các middle ware
 app.engine(
   "handlebars",
-  exphbs.engine({
+  exphbs({
     defaultLayout: "main",
     runtimeOptions: {
       allowProtoPropertiesByDefault: true,
