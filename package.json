@@ -1,7 +1,7 @@
 {
     "main": "app.js",
     "scripts": {
-    "start": "node app.js"
+    "start": "node /app.js"
   },
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.5",
