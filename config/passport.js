@@ -15,9 +15,10 @@ passport.use(
   new GoogleStrategy(
     {
       clientID:
-        "655853245696-ieg1g7mcndu723p6rqd65n0rsi7jdrdr.apps.googleusercontent.com",
-      clientSecret: "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",
-      callbackURL: "https://appstorekienminho.onrender.com/auth/google/callback",
+        "454712897153-hm7c5ikf8vfqlu5ee8aqtqo81llbce35.apps.googleusercontent.com",
+      clientSecret: "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",
+      callbackURL:
+        "https://appstorekienminho.onrender.com/auth/google/callback",
     },
     (accessToken, refreshToken, profile, done) => {
       // Xử lý thông tin user
