@@ -28,7 +28,7 @@ const drive = google.drive({
 
 let storage = multer.diskStorage({
   destination(req, file, cb) {
-    const path = "./public/waitlist/";
+    const path = "/public/waitlist";
     if (!fs.existsSync(path)) {
       fs.mkdirSync(path, { recursive: true });
     }
