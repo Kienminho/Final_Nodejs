@@ -17,7 +17,7 @@ passport.use(
       clientID:
         "655853245696-ieg1g7mcndu723p6rqd65n0rsi7jdrdr.apps.googleusercontent.com",
       clientSecret: "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",
-      callbackURL: "http://localhost:3000/auth/google/callback",
+      callbackURL: "https://appstorekienminho.onrender.com/auth/google/callback",
     },
     (accessToken, refreshToken, profile, done) => {
       // Xử lý thông tin user
