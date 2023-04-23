@@ -35,7 +35,7 @@ routes.get(
 routes.get(
   "/google/callback",
   passport.authenticate("google", {
-    failureRedirect: "/login",
+    failureRedirect: "/auth/login",
   }),
   authController.authenticateGoogleCallback
 );
@@ -46,7 +46,7 @@ routes.get("/facebook", passport.authenticate("facebook"));
 //callback facebook
 routes.get(
   "/facebook/callback",
-  passport.authenticate("facebook", { failureRedirect: "/" }),
+  passport.authenticate("facebook", { failureRedirect: "/auth/login" }),
   authController.authenticateFacebookCallback
 );
 
