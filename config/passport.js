@@ -31,9 +31,9 @@ passport.use(
 passport.use(
   new FacebookStrategy(
     {
-      clientID: "1233669877584899",
-      clientSecret: "92d743d3b4a8fb69accd27b104fd808b",
-      callbackURL: "http://localhost:3000/auth/facebook/callback",
+      clientID: "149178491451188",
+      clientSecret: "371e3178677804c4100e0e8c23a082ae",
+      callbackURL: "https://appstorekienminho.onrender.com/auth/facebook/callback",
     },
     function (accessToken, refreshToken, profile, cb) {
       // Kiểm tra profile
