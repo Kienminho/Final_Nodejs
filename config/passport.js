@@ -33,7 +33,7 @@ passport.use(
     {
       clientID: "149178491451188",
       clientSecret: "371e3178677804c4100e0e8c23a082ae",
-      callbackURL: "https://appstorekienminho.onrender.com/auth/facebook/callback",
+      callbackURL: "https://appstorekienminho.onrender.com/callback",
     },
     function (accessToken, refreshToken, profile, cb) {
       // Kiểm tra profile
