@@ -53,7 +53,7 @@ function filterForCategory(array, category) {
                 <div class="img-cover pe-0 col-3">
                     <img class="rounded" src="images/imgApps/${
                       app.image
-                    }.png" alt="">
+                    }" alt="">
                 </div>
                 <div class="det mt-2 col-9">
                     <h5 class="ml-0 mb-0 fs-6">${app.nameApp}</h5>
